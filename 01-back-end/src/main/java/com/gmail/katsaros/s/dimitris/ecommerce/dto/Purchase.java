@@ -18,8 +18,8 @@ public class Purchase {
 
     private Order order;
 
-
     private Set<OrderItem> orderItems = new HashSet<>();
+
     public Customer getCustomer() {
         return customer;
     }
